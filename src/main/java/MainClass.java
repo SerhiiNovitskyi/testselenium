@@ -27,7 +27,7 @@ public class MainClass {
             WebElement button = driver.findElement(By.xpath("//form[@class='home-hero-signup js-signup-form']//button"));
             System.out.println("Button text is:" + button.getText());
             button.submit();
-
+            driver.get("https://en.wikipedia.org/wiki/Main_Page");
 
 
 
